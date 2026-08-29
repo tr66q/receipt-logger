@@ -1,4 +1,5 @@
-shop = "adidas"
-amount = 90.89
+shop = input("shop name: ")
+amount = float(input("Amount: "))
 print("I paid", amount, "at", shop)
 print("thank u (:")
+print("Double that is", amount * 2)
