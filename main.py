@@ -1,5 +1,5 @@
-shop = input("shop name: ")
-amount = float(input("Amount: "))
-print("I paid", amount, "at", shop)
-print("thank u (:")
-print("Double that is", amount * 2)
+while True:
+    shop = input("Shop name: ").strip()
+    print("you typed:", shop)
+    if shop == "quit":
+        break
